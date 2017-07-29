@@ -1,0 +1,24 @@
+{
+  "name": "raulin/token",
+  "description": "simple token ",
+  "keywords": [
+    "token",
+    "uuid",
+    "php",
+    "api"
+  ],
+  "authors": [
+    {
+      "name": "RaulIn",
+      "email": "1191004918@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Token\\": "src/"
+    }
+  }
+}
