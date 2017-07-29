@@ -9,7 +9,7 @@
 namespace Token;
 
 use Illuminate\Support\Facades\Facade;
-use SimpleJWT\Header\Header;
+
 class Token extends Facade
 {
 
