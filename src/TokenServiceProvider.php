@@ -8,10 +8,9 @@
 
 namespace Token;
 
-use App\Http\Controllers\ExampleController;
 
 use Illuminate\Support\ServiceProvider;
-require_once "SimpleJWT.php";
+
 class TokenServiceProvider extends ServiceProvider
 {
 
