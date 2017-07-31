@@ -2,7 +2,7 @@
 simple api token
 适用于lumen的简单token服务提供
 安装方式：
-composer raulin/token:master-dev
+composer raulin/token:dev-master
 使用方式：
 lumen直接在 bootstrap/app.php中加添加  $app->register(Token\TokenServiceProvider::class);
 使用：
