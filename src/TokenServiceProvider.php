@@ -5,7 +5,6 @@
  * Date: 2017/7/28
  * Time: 11:28
  */
-
 namespace Token;
 
 use Illuminate\Support\ServiceProvider;

@@ -5,7 +5,6 @@
  * Date: 2017/7/28
  * Time: 14:19
  */
-
 namespace Token;
 
 class Token
@@ -19,8 +18,8 @@ class Token
     private function __construct()
     {
         $this->_randomStr=time().rand(1,10000).chr(mt_rand(33, 126));
-        $this->_encrypt=env('TOKEN_ENCRYPT');
-        $this->_expire=env('TOKEN_EXPIRE');
+        $this->_encrypt=env('TOKEN_ENCRYPT','sha256');
+        $this->_expire=env('TOKEN_EXPIRE',7200);
         self::setToken();
     }
     private function __clone() {
